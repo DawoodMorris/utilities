@@ -1,0 +1,13 @@
+name: 'Clean Remote Directories'
+description: 'Clean directories to deploy new code'
+inputs:
+  who-to-greet: #id of input
+    description: 'Who to greet'
+    required: true
+    default: 'World'
+outputs:
+  time: #id of ouput
+    description: 'The time of the greeting'
+runs:
+  using: 'node12'
+  main: 'index.js'

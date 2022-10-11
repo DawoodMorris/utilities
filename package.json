@@ -1,0 +1,27 @@
+{
+  "name": "utilities",
+  "version": "1.0.0",
+  "description": "Some useful utilities on Actions (learning)",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DawoodMorris/utilities.git"
+  },
+  "keywords": [
+    "utilities",
+    "ci/cd"
+  ],
+  "author": "Dawood Morris",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/DawoodMorris/utilities/issues"
+  },
+  "homepage": "https://github.com/DawoodMorris/utilities#readme",
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/github": "^5.1.1"
+  }
+}
