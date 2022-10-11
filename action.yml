@@ -9,5 +9,5 @@ outputs:
   time: #id of ouput
     description: 'The time of the greeting'
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'index.js'
